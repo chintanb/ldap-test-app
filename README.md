@@ -1,4 +1,4 @@
-# Simple test application to test LDAP authentication using Java
+# Simple application to test LDAP authentication using Java
 
 1) Run `mvn package` to build a jar.
 
@@ -8,12 +8,19 @@ java -jar ldap-test-app-1.0-SNAPSHOT.jar --host=acs2016server.acs2016.dev.dataca
 **Information about arguments:**
 
 host - The AD server url
+
 port - The port AD server is listening on
+
 userId - GUID of the user you want to authenticate with
+
 password - Password of the authenticating user
+
 runDuration - Duration to run the application (in minutes)
+
 connectTimeout - (optional) LDAP connect timeout - default is 5 seconds
+
 connectTimeout - (optional) LDAP read timeout - default is 5 seconds
+
 sleepDuration - (optional) time to sleep between two authentications - default is 1 second 
 
 ***Sample Run***
