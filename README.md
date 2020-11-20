@@ -17,11 +17,11 @@ password - Password of the authenticating user
 
 runDuration - Duration to run the application (in minutes)
 
-connectTimeout - (optional) LDAP connect timeout - default is 5 seconds
+connectTimeout - (optional) LDAP connect timeout in seconds - default is 5 seconds
 
-connectTimeout - (optional) LDAP read timeout - default is 5 seconds
+readTimeout - (optional) LDAP read timeout in seconds - default is 5 seconds
 
-sleepDuration - (optional) time to sleep between two authentications - default is 1 second 
+sleepDuration - (optional) time to sleep between two authentications in milliseconds - default is 1000 ms 
 
 ***Sample Run***
 
